@@ -790,6 +790,7 @@ class GoogleDriveHelper:
                             if VIEW_LINK:
                                 msg += f' <b>| <a href="{urls}">View Link</a></b>'
                 msg += '<br><br>'
+                msg += f'\n\n<b>Lien : </b>\n<code>{url}</code>'
                 content_count += 1
                 all_contents_count += 1
                 if content_count == TELEGRAPHLIMIT :
